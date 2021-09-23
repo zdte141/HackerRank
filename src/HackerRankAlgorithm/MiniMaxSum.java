@@ -21,7 +21,7 @@ public class MiniMaxSum {
     }
     result[0] = sum - max;
     result[1] = sum - min;
-
+    System.out.print((sum - max) + " " + (sum - min));
     return result;
 
   }
